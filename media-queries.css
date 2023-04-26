@@ -1,0 +1,106 @@
+/* for cards */
+@media (max-width:768px) {
+  .card-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-c {
+    min-height: 39vh;
+}
+}
+
+/* for nav-bar */
+@media (max-width:768px) {
+    .navbar{
+        padding-top: 1pc;
+    }
+
+   nav ul{
+    height: 98vh;
+    width: 200px;
+    position: fixed;
+    background: #3a5311de;
+    right: -100pc;
+    top: 0;
+    flex-direction: column;
+    margin: 0;
+    justify-content: center;
+    align-items: baseline;
+    padding: 1pc;
+    transition: .3s;
+   }
+
+   nav ul li{
+    font-size: 30px;
+   }
+
+   .close{
+    display: block;
+    position: absolute;
+    top: 1pc;
+    right: 1pc;
+   }
+
+   .ham{
+    margin-right: 1pc;
+    background-color: white;
+    display: block;
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50pc;
+   }
+
+   .ham span{
+    position: absolute;
+   }
+}
+/* for menu cards */
+@media (max-width:768px) {
+.menu-item{
+    width: 70vw;
+}
+}
+/* for reviews */
+
+@media (max-width:768px){
+    .reviews{
+        width: 70vw;
+        margin: 30px;
+    }   
+
+    p5{
+        font-size: 17px;
+    }
+}
+
+@media (max-width:554px) {
+    .reviews{
+        height: fit-content;
+    }
+    
+}
+/* Addres section */
+
+@media (max-width:768px){
+    .footer-container .f-col-1{
+        flex-basis: 80vw;
+        }
+    
+        .footer-container .f-col-2 input{
+            width: 80vw;
+            margin-bottom: 1pc;
+            height: 2pc;
+        }
+
+        .footer-container .f-col-2 textarea {
+            width: 80.5vw;
+        }
+
+}       
